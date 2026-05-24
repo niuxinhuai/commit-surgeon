@@ -7,15 +7,28 @@
     "commit-surgeon": "./src/cli.js"
   },
   "scripts": {
-    "test": "node src/cli.js --help"
+    "test": "node test/run-tests.js"
   },
   "keywords": [
     "cli",
     "developer-tools",
     "open-source"
   ],
-  "author": "",
+  "author": "niuxinhuai",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niuxinhuai/commit-surgeon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niuxinhuai/commit-surgeon/issues"
+  },
+  "homepage": "https://github.com/niuxinhuai/commit-surgeon#readme",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=18"
   }
