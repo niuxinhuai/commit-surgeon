@@ -1,5 +1,7 @@
 # commit-surgeon
 
+[![CI](https://github.com/niuxinhuai/commit-surgeon/actions/workflows/ci.yml/badge.svg)](https://github.com/niuxinhuai/commit-surgeon/actions/workflows/ci.yml)
+
 Inspect a dirty git worktree and suggest semantic commit groups with starter commit messages.
 
 检查脏工作区，把文件按语义建议拆成多个 commit，并生成初始 commit message。
